@@ -347,7 +347,7 @@ bot
 <b>Total Users Seen (Approved/Disapproved)</b>: ${TOTAL_USERS_SEEN}
 <b>Uptime</b>: ${uptime}
 
-<b><a href="https://github.com/xditya/ChannelActionsBot">Repository</a> | <a href="https://t.me/BotzHub">Channel</a> | <a href="https://t.me/BotzHubChat">Support</a></b>`,
+<b><a href="https://t.me/MM_MOVIESSS">JOIN</a> | <a href="https://t.me/MM_MOVIESSS">Channel</a> | <a href="https://t.me/MM_MOVIESSS">Support</a></b>`,
       { parse_mode: "HTML", disable_web_page_preview: true },
     );
   });
@@ -393,4 +393,4 @@ bot.callbackQuery(/setlang_(.*)/, async (ctx) => {
 
 await bot.init();
 console.info(`Started Bot - @${bot.botInfo.username}`);
-console.info("\nDo join @BotzHub!\nBy - @xditya.\n");
+console.info("\nDo join @MM_MOVIESSS!\nBy - @MM_MOVIESSS.\n");
