@@ -103,7 +103,7 @@ bot
       reply_markup: new InlineKeyboard()
         .text(ctx.t("usage-help"), "helper").row()
         .text("Change Language", "setLang").row()
-        .url(ctx.t("updates"), "https://t.me/BotzHub"),
+        .url(ctx.t("updates"), "https://t.me/MM_MOVIESSS"),
       disable_web_page_preview: true,
     });
     await addUser(ctx.from.id);
@@ -122,7 +122,7 @@ bot.callbackQuery("cancelLocaleSetting", async (ctx) => {
 bot.callbackQuery("helper", async (ctx) => {
   await ctx.editMessageText(
     ctx.t("help") +
-      "\n\nTo approve members who are already in waiting list, upgrade to premium! Contact @xditya_bot for information on pricing.",
+      "\n\nAdd me your channel then see my magic 😁.",
     {
       reply_markup: new InlineKeyboard().text("Main Menu 📭", "cancelLocaleSetting"),
       parse_mode: "HTML",
